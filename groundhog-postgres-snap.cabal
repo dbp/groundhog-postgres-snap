@@ -13,14 +13,14 @@ library
   other-extensions:    OverloadedStrings, ViewPatterns, PackageImports, ScopedTypeVariables, FlexibleContexts
 
   build-depends:
-    base                 >=4.7 && <4.8,
-    monad-logger         >=0.3 && <0.4,
-    MonadCatchIO-transformers >= 0.2.1 && < 0.4,
+    base                 >=4.7,
+    monad-logger         >=0.3,
+    MonadCatchIO-transformers >= 0.2.1,
     snap,
-    bytestring           >=0.10 && <0.11,
-    configurator         >=0.2 && <0.3,
-    resource-pool        >=0.2 && <0.3,
-    text                 >=1.1 && <1.2,
+    bytestring           >=0.10,
+    configurator         >=0.2,
+    resource-pool        >=0.2,
+    text                 >=1.1,
     groundhog            >=0.5 && <0.6,
     groundhog-postgresql >=0.5 && <0.6
   hs-source-dirs:      src
