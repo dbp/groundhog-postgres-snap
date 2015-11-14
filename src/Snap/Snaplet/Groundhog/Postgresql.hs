@@ -42,6 +42,7 @@ import           Prelude hiding ((++))
 import           Control.Applicative
 import "MonadCatchIO-transformers" Control.Monad.CatchIO (MonadCatchIO)
 import           Control.Monad.Logger
+import          Control.Monad.Trans (liftIO)
 import           Snap hiding (get)
 import           Data.ByteString (ByteString)
 import qualified Data.ByteString.Char8 as B8
